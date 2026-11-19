@@ -1,12 +1,12 @@
 # Teil 2: Werkzeuge für deinen Agenten
 
-Kopier die Aufträge in den Chat von Claude Code oder Codex. Lies, was der Agent vorschlägt, bevor du Ja sagst. Du richtest alles für deinen Benutzer ein, dann ist es in jedem Projekt da, auch im neuen Repo aus Teil 3.
+Kopier die Aufträge in den Chat deines Agenten, egal ob Claude Code, Codex oder Gemini. Lies, was der Agent vorschlägt, bevor du Ja sagst. Du richtest alles für deinen Benutzer ein, dann ist es in jedem Projekt da, auch im neuen Repo aus Teil 3.
 
 ## 1. Skills einrichten
 
 Ein Skill ist ein Rezept als Markdown-Datei. Dein Agent liest es erst, wenn deine Bitte dazu passt.
 
-> Kopiere die Ordner aus `vorlagen/skills` in meinem Ordner agentic-workshop nach `~/.claude/skills/`, für Codex nach `~/.agents/skills/`. Zeig mir danach, was du angelegt hast.
+> Kopiere die Ordner aus `vorlagen/skills` in meinem Ordner agentic-workshop in deinen globalen Skill-Ordner (Claude Code: `~/.claude/skills/`, Codex: `~/.agents/skills/`, Gemini: `~/.gemini/skills/`). Zeig mir danach, was du angelegt hast.
 
 Test: „Welche Skills kennst du?“ Dein Agent nennt die neuen Skills.
 
@@ -34,7 +34,9 @@ Weitere Skills findest du auf [github.com/anthropics/skills](https://github.com/
 
 MCP ist die Steckdosenleiste, an die dein Agent andere Programme anschließt. Context7 holt ihm die aktuelle Anleitung für Tailwind, React und andere Werkzeuge. Es läuft ohne Account.
 
-Im Terminal, nicht im Chat:
+> Richte mir den HTTP-MCP-Server context7 unter https://mcp.context7.com/mcp für alle meine Projekte ein und zeig mir, ob er verbunden ist.
+
+Oder im Terminal, nicht im Chat (Gemini nimmt den Prompt oben):
 
 ```bash
 # Claude Code, für alle Projekte
@@ -44,7 +46,7 @@ claude mcp add -s user --transport http context7 https://mcp.context7.com/mcp
 codex mcp add context7 --url https://mcp.context7.com/mcp
 ```
 
-Test: Tipp `/mcp` in Claude Code. Context7 steht dort als verbunden. Dann im Chat:
+Test: Tipp `/mcp` oder frag deinen Agenten, ob context7 verbunden ist. Dann im Chat:
 
 > Bau ein Kontaktformular mit Tailwind. use context7
 
@@ -56,7 +58,7 @@ Ein Hook läuft immer, wenn ein bestimmter Moment kommt, zum Beispiel bevor der 
 
 > Richte für alle meine Projekte einen Hook ein, der mich benachrichtigt, wenn du auf mich wartest.
 
-Test: Tipp `/hooks` in Claude Code. Der neue Hook steht in der Liste.
+Test: Tipp `/hooks`. Der neue Hook steht in der Liste. Codex führt einen neuen Hook erst aus, wenn du ihn dort einmal freigibst.
 
 Fertige Vorlage für Claude Code auf dem Mac: [`vorlagen/hooks/settings.json`](../vorlagen/hooks/settings.json). Sie enthält zwei Hooks:
 
@@ -66,6 +68,10 @@ Fertige Vorlage für Claude Code auf dem Mac: [`vorlagen/hooks/settings.json`](.
 > Übernimm die Hooks aus `vorlagen/hooks/settings.json` in meine `~/.claude/settings.json`. Ich nutze Windows oder Linux, passe die Benachrichtigung bitte an mein System an.
 
 Den letzten Satz lässt du auf dem Mac weg.
+
+## Geschafft?
+
+Frag deinen Agenten: „Welche Skills, MCP-Server und Hooks hast du?“ Er nennt website-design, projekt-karte, context7 und deinen Hook.
 
 ## 4. Weiter in Teil 3
 
