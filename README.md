@@ -18,7 +18,7 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 
 1. **Schritt 3: VS Code aufrüsten.** Installiere die Erweiterungen Office Viewer und Live Preview.
    Test: Klicke links im Explorer auf `anleitung.pdf`. Die Anleitung öffnet sich direkt in VS Code.
-2. **Schritt 4: Agenten einrichten.** Installiere Claude Code und Codex und melde dich an.
+2. **Schritt 4: Agenten einrichten.** Installiere Claude Code, Codex oder Gemini (Erweiterung Google Antigravity) und melde dich an.
    Test: Tippe in den Chat des Agenten:
 
    > Hallo! Welche Dateien liegen in meinem Ordner?

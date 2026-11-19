@@ -40,7 +40,7 @@ Legt Struktur und Tech-Stack fest.
 ```text
 Definiere auf Basis meiner Antworten in ARCHITEKTUR.md:
 1. Sinn und Zweck (2 Sätze) und maximal 4 Kernfunktionen für Version 1.
-2. Bausteine: CLAUDE.md, 00-inbox/, Bereichsordner, data/state.json, dashboard/index.html.
+2. Bausteine: CLAUDE.md (Codex und Gemini: AGENTS.md), 00-inbox/, Bereichsordner, data/state.json, dashboard/index.html.
 3. Tech-Stack: Markdown/JSON/CSV + reines HTML/CSS/JS für VS Code Live Preview (ohne Server).
 4. Wie Daten von 00-inbox/ über dich in data/state.json und das Dashboard fließen.
 ```
@@ -62,7 +62,7 @@ Nach jedem Schritt in Live Preview prüfen.
 
 ```text
 Erstelle auf Basis unserer Entscheidung:
-1. CLAUDE.md (Ordnerdisziplin, Datenformate, Inbox-Workflow).
+1. CLAUDE.md, bei Codex und Gemini AGENTS.md (Ordnerdisziplin, Datenformate, Inbox-Workflow).
 2. PLAN.md mit 4 kleinen Schritten (1: Ordner & Beispieldaten, 2: Dashboard in dashboard/index.html, 3: Inbox-Skill in .claude/skills/, 4: Test mit einem Eintrag in 00-inbox/).
 Zeige mir den Plan. Setze danach immer nur den Schritt um, den ich freigebe.
 ```

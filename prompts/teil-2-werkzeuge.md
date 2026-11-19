@@ -80,7 +80,7 @@ Yannik startet mit dir ein neues Repo. Dort schickst du Prompt 1 aus deinem Begl
 - [Track 1: Personal OS](teil-3-track-1-personal-os.md)
 - [Track 2: Website mit Portfolio](teil-3-track-2-portfolio.md)
 
-Claude Code liest im Projekt die Datei `CLAUDE.md`, Codex die Datei `AGENTS.md`. Yanniks Prompt 4 legt eine `CLAUDE.md` an.
+Claude Code liest im Projekt die Datei `CLAUDE.md`, Codex und Gemini (Antigravity) die Datei `AGENTS.md`. Yanniks Prompt 4 legt eine `CLAUDE.md` an.
 
 ## Befehle
 
