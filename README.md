@@ -29,9 +29,10 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 
 | Thema | Datei |
 | --- | --- |
-| Skills, MCP, Hooks und erste Aufträge | [prompts/teil-2-werkzeuge.md](prompts/teil-2-werkzeuge.md) |
+| Skills, MCP und Hooks einrichten | [prompts/teil-2-werkzeuge.md](prompts/teil-2-werkzeuge.md) |
 | Second Brain aus deinen alten Chats | [prompts/second-brain.md](prompts/second-brain.md) |
-| Zwei Skills: website-design, projekt-karte | [vorlagen/skills/](vorlagen/skills/) |
+| Drei Skills: website-design, projekt-karte, design-brief | [vorlagen/skills/](vorlagen/skills/) |
+| Links zu allen Design-Skills aus den Folien | [prompts/teil-2-werkzeuge.md](prompts/teil-2-werkzeuge.md#meine-design-skills-aus-den-folien) |
 | Context7 per MCP | [vorlagen/mcp/mcp.json](vorlagen/mcp/mcp.json) |
 | Zwei Hooks: Benachrichtigung, Löschsperre | [vorlagen/hooks/settings.json](vorlagen/hooks/settings.json) |
 
