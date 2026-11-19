@@ -10,7 +10,7 @@ Kopier das in Claude Code oder Codex:
 
 Dein Agent prüft den Rechner (git, uv, Python 3.12), fragt vor jeder Installation und liest deine Chats erst nach deinem Ja.
 
-Wichtig: Nutzt dein Agent ein Cloud-Modell, gehen die Suchtreffer an dessen Anbieter. Lies vertrauliche Chats nur ein, wenn das für dich passt.
+Nutzt dein Agent ein Cloud-Modell, gehen die Suchtreffer an dessen Anbieter. Lies vertrauliche Chats nur ein, wenn das für dich passt.
 
 ## Deine alten Chats holen
 
