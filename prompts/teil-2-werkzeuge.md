@@ -1,0 +1,95 @@
+# Teil 2: Werkzeuge für deinen Agenten
+
+Kopier die Aufträge in den Chat von Claude Code oder Codex. Lies, was der Agent vorschlägt, bevor du Ja sagst. Du richtest alles für deinen Benutzer ein, dann ist es in jedem Projekt da, auch im neuen Repo aus Teil 3.
+
+## 1. Skills einrichten
+
+Ein Skill ist ein Rezept als Markdown-Datei. Dein Agent liest es erst, wenn deine Bitte dazu passt.
+
+> Kopiere die Ordner aus `vorlagen/skills` in meinem Ordner agentic-workshop nach `~/.claude/skills/`, für Codex nach `~/.agents/skills/`. Zeig mir danach, was du angelegt hast.
+
+Test: „Welche Skills kennst du?“ Dein Agent nennt die neuen Skills.
+
+| Skill | Was er macht | Quelle |
+| --- | --- | --- |
+| website-design | Gestaltungsregeln für deine Website | [vorlagen/skills/website-design](../vorlagen/skills/website-design/SKILL.md) |
+| projekt-karte | fügt deiner Website eine Projektkarte hinzu | [vorlagen/skills/projekt-karte](../vorlagen/skills/projekt-karte/SKILL.md) |
+| design-brief | Vorbild und Verbotsliste, bevor gebaut wird | [vorlagen/skills/design-brief](../vorlagen/skills/design-brief/SKILL.md) |
+
+### Meine Design-Skills aus den Folien
+
+| Skill | Was er macht | Quelle |
+| --- | --- | --- |
+| design-styles | 50 Stilrichtungen zum Nachschlagen | [tombrewsviews/design-styles](https://github.com/tombrewsviews/design-styles) |
+| frontend-design-direction | klare Designrichtung für Webseiten | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/frontend-design-direction) |
+| color-expert | Farbe und Kontrast | [meodai/skill.color-expert](https://github.com/meodai/skill.color-expert) |
+| motion-foundations | Regeln für Bewegung | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/motion-foundations) |
+| motion-patterns | fertige Animationsmuster | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/motion-patterns) |
+| stop-slop | Text ohne KI-Floskeln | [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) |
+| unslop | entfernt den KI-Look | [heydamir/unslop](https://github.com/heydamir/unslop) |
+
+Weitere Skills findest du auf [github.com/anthropics/skills](https://github.com/anthropics/skills). Lies einen fremden Skill, bevor du ihn nutzt. Er kann Befehle enthalten, die mit deinen Rechten laufen.
+
+## 2. MCP: Context7 anschließen
+
+MCP ist die Steckdosenleiste, an die dein Agent andere Programme anschließt. Context7 holt ihm die aktuelle Anleitung für Tailwind, React und andere Werkzeuge. Es läuft ohne Account.
+
+Im Terminal, nicht im Chat:
+
+```bash
+# Claude Code, für alle Projekte
+claude mcp add -s user --transport http context7 https://mcp.context7.com/mcp
+
+# Codex
+codex mcp add context7 --url https://mcp.context7.com/mcp
+```
+
+Test: Tipp `/mcp` in Claude Code. Context7 steht dort als verbunden. Dann im Chat:
+
+> Bau ein Kontaktformular mit Tailwind. use context7
+
+Nur für ein einzelnes Projekt geht es auch als Datei: Kopier [`vorlagen/mcp/mcp.json`](../vorlagen/mcp/mcp.json) als `.mcp.json` in das Projekt.
+
+## 3. Hooks: ein Befehl an einem festen Punkt
+
+Ein Hook läuft immer, wenn ein bestimmter Moment kommt, zum Beispiel bevor der Agent einen Befehl ausführt. Er läuft mit deinen Rechten. Lies ihn, bevor du ihn übernimmst.
+
+> Richte für alle meine Projekte einen Hook ein, der mich benachrichtigt, wenn du auf mich wartest.
+
+Test: Tipp `/hooks` in Claude Code. Der neue Hook steht in der Liste.
+
+Fertige Vorlage für Claude Code auf dem Mac: [`vorlagen/hooks/settings.json`](../vorlagen/hooks/settings.json). Sie enthält zwei Hooks:
+
+- **Notification:** Der Mac meldet sich, wenn Claude auf dich wartet.
+- **PreToolUse:** Claude darf kein `rm -rf` ausführen, also keinen ganzen Ordner auf einmal löschen.
+
+> Übernimm die Hooks aus `vorlagen/hooks/settings.json` in meine `~/.claude/settings.json`. Ich nutze Windows oder Linux, passe die Benachrichtigung bitte an mein System an.
+
+Den letzten Satz lässt du auf dem Mac weg.
+
+## 4. Weiter in Teil 3
+
+Yannik startet mit dir ein neues Repo. Dort schickst du Prompt 1 aus deinem Begleitdokument:
+
+- [Track 1: Personal OS](teil-3-track-1-personal-os.md)
+- [Track 2: Website mit Portfolio](teil-3-track-2-portfolio.md)
+
+Claude Code liest im Projekt die Datei `CLAUDE.md`, Codex die Datei `AGENTS.md`. Yanniks Prompt 4 legt eine `CLAUDE.md` an.
+
+## Befehle
+
+| Befehl | Was er macht |
+| --- | --- |
+| `/init` | schreibt einen ersten Entwurf der Projektdatei |
+| `/memory` | Gedächtnisdateien bearbeiten |
+| `/mcp` | zeigt verbundene Werkzeuge |
+| `/hooks` | zeigt eingerichtete Hooks |
+| `/clear` | startet einen neuen Chat |
+
+## Fünf Regeln für jeden Agenten
+
+1. **Ergebnis prüfen.** Stimmt alles, was über dich drinsteht? Agenten erfinden gern Noten und Abschlüsse.
+2. **Freigabe lesen.** Beim Veröffentlichen, Bezahlen und Löschen liest du erst die Frage.
+3. **Keine Passwörter ins Repo.** Schlüssel gehören in eine Umgebungsvariable.
+4. **Echte Daten schützen.** Adresse und Noten nur dort eingeben, wo du den Datenschutz kennst.
+5. **Fremde Skills lesen.** Ein Skill oder Hook läuft mit deinen Rechten.
