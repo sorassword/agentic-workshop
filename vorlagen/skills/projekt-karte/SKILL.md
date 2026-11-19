@@ -12,7 +12,7 @@ description: Fügt der Portfolio-Website ein neues Projekt hinzu. Nutzen, wenn i
 
 ## Regeln
 - Nichts erfinden: keine Noten, Zahlen oder Firmen, die ich nicht genannt habe.
-- Das Ergebnis steht in einem Satz, eine Zahl darin wird hervorgehoben.
+- Schreib das Ergebnis in einem Satz und heb eine Zahl darin hervor.
 
 ## Prüfen
 - Auf http://localhost:5173 nachsehen: Steht das Projekt oben?

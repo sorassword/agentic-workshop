@@ -14,7 +14,7 @@ Test: „Welche Skills kennst du?“ Dein Agent nennt die neuen Skills.
 | --- | --- | --- |
 | website-design | Gestaltungsregeln für deine Website | [vorlagen/skills/website-design](../vorlagen/skills/website-design/SKILL.md) |
 | projekt-karte | fügt deiner Website eine Projektkarte hinzu | [vorlagen/skills/projekt-karte](../vorlagen/skills/projekt-karte/SKILL.md) |
-| design-brief | Vorbild und Verbotsliste, bevor gebaut wird | [vorlagen/skills/design-brief](../vorlagen/skills/design-brief/SKILL.md) |
+| design-brief | Vorbild und Verbotsliste, bevor du baust | [vorlagen/skills/design-brief](../vorlagen/skills/design-brief/SKILL.md) |
 
 ### Meine Design-Skills aus den Folien
 

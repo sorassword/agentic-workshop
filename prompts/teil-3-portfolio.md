@@ -4,7 +4,7 @@ Du baust mit Vite, React (TypeScript), Tailwind CSS und Lucide Icons eine Websit
 
 Die Prompts funktionieren mit Claude Code, Codex und Gemini. Claude Code schreibt seine Projektregeln in `CLAUDE.md`, Codex und Gemini (Antigravity) in `AGENTS.md`. Die Prompts sagen das jeweils dazu.
 
-KI ist ein Werkzeug, kein Autopilot. Lies jeden Vorschlag, frag bei unnötiger Komplexität nach und entscheide selbst.
+Du steuerst: Lies jeden Vorschlag, frag bei unnötiger Komplexität nach und entscheide selbst.
 
 ## Schritt A: Neues Repo öffnen und Dev-Server starten
 

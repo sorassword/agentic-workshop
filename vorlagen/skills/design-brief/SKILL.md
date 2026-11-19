@@ -9,7 +9,7 @@ Kein Design ohne Brief. Dieser Skill legt Vorbild, Verbotsliste und Prüfregeln 
 
 ## Gate
 
-Gebaut wird erst, wenn alle drei Punkte vorliegen:
+Bau erst, wenn alle drei Punkte vorliegen:
 
 - (a) 1 bis 2 Vorbilder: Bild, URL oder benannter Stil
 - (b) Verbotsliste
