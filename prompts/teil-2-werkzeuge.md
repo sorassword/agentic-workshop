@@ -58,7 +58,7 @@ Ein Hook läuft immer, wenn ein bestimmter Moment kommt, zum Beispiel bevor der 
 
 > Richte für alle meine Projekte einen Hook ein, der mich benachrichtigt, wenn du auf mich wartest.
 
-Test: Tipp `/hooks`. Der neue Hook steht in der Liste. Codex führt einen neuen Hook erst aus, wenn du ihn dort einmal freigibst.
+Test: Tipp `/hooks`. Der neue Hook steht in der Liste. Codex führt einen neuen Hook erst aus, wenn du ihn dort freigibst.
 
 Fertige Vorlage für Claude Code auf dem Mac: [`vorlagen/hooks/settings.json`](../vorlagen/hooks/settings.json). Sie enthält zwei Hooks:
 
