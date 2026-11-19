@@ -12,7 +12,7 @@ Die übrigen fünf stammen unverändert aus öffentlichen Repos. Jeder Ordner en
 | motion-foundations | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/motion-foundations) | `ccd8da1` | MIT |
 | motion-patterns | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/motion-patterns) | `ccd8da1` | MIT |
 
-Zwei Skills von den Folien liegen nicht bei. Dein Agent installiert sie direkt von der Quelle, der Prompt steht in `prompts/teil-2-werkzeuge.md`:
+Zwei Skills von den Folien liegen nicht bei. Dein Agent holt sie von der Quelle, der Prompt steht in `prompts/teil-2-werkzeuge.md`:
 
 - `design-styles` von [tombrewsviews/design-styles](https://github.com/tombrewsviews/design-styles): Das Repo nennt keine Lizenz, deshalb dürfen wir es nicht weitergeben.
 - `color-expert` von [meodai/skill.color-expert](https://github.com/meodai/skill.color-expert): Seine Nachschlagetexte stammen zum Teil von Dritten, die Lizenz des Repos deckt sie nicht ab.

@@ -28,7 +28,7 @@ Fünf davon liegen schon in `vorlagen/skills` und kommen mit dem Auftrag oben in
 | stop-slop | Text ohne KI-Floskeln | [vorlagen/skills/stop-slop](../vorlagen/skills/stop-slop/SKILL.md) |
 | unslop | entfernt den KI-Look | [vorlagen/skills/unslop](../vorlagen/skills/unslop/SKILL.md) |
 
-Zwei Skills dürfen wir nicht mitliefern, die holt dein Agent direkt von der Quelle: [design-styles](https://github.com/tombrewsviews/design-styles) (50 Stilrichtungen zum Nachschlagen) und [color-expert](https://github.com/meodai/skill.color-expert) (Farbe und Kontrast).
+Zwei Skills dürfen wir nicht mitliefern, die holt dein Agent von der Quelle: [design-styles](https://github.com/tombrewsviews/design-styles) (50 Stilrichtungen zum Nachschlagen) und [color-expert](https://github.com/meodai/skill.color-expert) (Farbe und Kontrast).
 
 > Installiere zwei Skills in meinen globalen Skill-Ordner: den Ordner design-styles aus github.com/tombrewsviews/design-styles und das ganze Repo github.com/meodai/skill.color-expert als Ordner color-expert. Lies beide vorher und sag mir, ob etwas Bedenkliches drinsteht.
 
