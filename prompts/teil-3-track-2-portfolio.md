@@ -53,7 +53,7 @@ Vergleicht Gestaltung und Skills.
 Recherchiere auf Basis von ARCHITEKTUR.md zwei Gestaltungs- und Technikansätze:
 - Wie setze ich Typografie, Farbhierarchie und Abstände um, damit die Seite eigenständig wirkt?
 - Welche dezenten Animationen (CSS-Transitions, IntersectionObserver) passen ohne Überladung?
-- Welche Regeln gehören dafür in CLAUDE.md oder einen Design-Skill?
+- Welche Regeln gehören dafür in CLAUDE.md (Codex und Gemini: AGENTS.md) oder einen Design-Skill?
 Empfiehl den besten Ansatz für heute. Noch keinen Code.
 ```
 
@@ -63,7 +63,7 @@ Nach jedem Schritt in Live Preview prüfen.
 
 ```text
 Erstelle auf Basis unserer Entscheidung:
-1. CLAUDE.md (Stil-, Tonalitäts- und Design-Regeln, keine Klischees).
+1. CLAUDE.md, bei Codex und Gemini AGENTS.md (Stil-, Tonalitäts- und Design-Regeln, keine Klischees).
 2. PLAN.md mit 4 kleinen Schritten (1: data/profile.json & tokens.css, 2: index.html & style.css, 3: Design-/Animations-Feinschliff über Skill, 4: Mobile- und Kontrast-Check).
 Zeige mir den Plan. Setze danach immer nur den Schritt um, den ich freigebe.
 ```

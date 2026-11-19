@@ -4,7 +4,7 @@ Dein Agent macht aus deinen alten Chats durchsuchbare Markdown-Dateien. Dort fin
 
 ## Ein Auftrag reicht
 
-Kopier das in Claude Code oder Codex:
+Kopier das in deinen Agenten, egal ob Claude Code, Codex oder Gemini:
 
 > Richte mir das Second Brain von github.com/22wayan/obsidiyan-engine ein. Lies zuerst docs/INSTALL_FOR_AGENTS.md und arbeite die Anleitung Schritt für Schritt ab. Erklär mir jeden Schritt in einfachen Worten und frag, bevor du etwas installierst oder meine Chats liest. Teste zuerst mit Demodaten und zeig mir einen echten Suchtreffer. Sag mir danach, wie ich meine alten Chats einlese und meinen Wissensgraphen in Obsidian ansehe.
 
