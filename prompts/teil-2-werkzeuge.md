@@ -18,15 +18,19 @@ Test: „Welche Skills kennst du?“ Dein Agent nennt die neuen Skills.
 
 ### Meine Design-Skills aus den Folien
 
-| Skill | Was er macht | Quelle |
+Fünf davon liegen schon in `vorlagen/skills` und kommen mit dem Auftrag oben in deinen Skill-Ordner. Woher sie stammen und unter welcher Lizenz, steht in [vorlagen/skills/QUELLEN.md](../vorlagen/skills/QUELLEN.md).
+
+| Skill | Was er macht | Im Repo |
 | --- | --- | --- |
-| design-styles | 50 Stilrichtungen zum Nachschlagen | [tombrewsviews/design-styles](https://github.com/tombrewsviews/design-styles) |
-| frontend-design-direction | klare Designrichtung für Webseiten | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/frontend-design-direction) |
-| color-expert | Farbe und Kontrast | [meodai/skill.color-expert](https://github.com/meodai/skill.color-expert) |
-| motion-foundations | Regeln für Bewegung | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/motion-foundations) |
-| motion-patterns | fertige Animationsmuster | [affaan-m/ECC](https://github.com/affaan-m/ECC/tree/main/skills/motion-patterns) |
-| stop-slop | Text ohne KI-Floskeln | [hardikpandya/stop-slop](https://github.com/hardikpandya/stop-slop) |
-| unslop | entfernt den KI-Look | [heydamir/unslop](https://github.com/heydamir/unslop) |
+| frontend-design-direction | klare Designrichtung für Webseiten | [vorlagen/skills/frontend-design-direction](../vorlagen/skills/frontend-design-direction/SKILL.md) |
+| motion-foundations | Regeln für Bewegung | [vorlagen/skills/motion-foundations](../vorlagen/skills/motion-foundations/SKILL.md) |
+| motion-patterns | fertige Animationsmuster | [vorlagen/skills/motion-patterns](../vorlagen/skills/motion-patterns/SKILL.md) |
+| stop-slop | Text ohne KI-Floskeln | [vorlagen/skills/stop-slop](../vorlagen/skills/stop-slop/SKILL.md) |
+| unslop | entfernt den KI-Look | [vorlagen/skills/unslop](../vorlagen/skills/unslop/SKILL.md) |
+
+Zwei Skills dürfen wir nicht mitliefern, die holt dein Agent direkt von der Quelle: [design-styles](https://github.com/tombrewsviews/design-styles) (50 Stilrichtungen zum Nachschlagen) und [color-expert](https://github.com/meodai/skill.color-expert) (Farbe und Kontrast).
+
+> Installiere zwei Skills in meinen globalen Skill-Ordner: den Ordner design-styles aus github.com/tombrewsviews/design-styles und das ganze Repo github.com/meodai/skill.color-expert als Ordner color-expert. Lies beide vorher und sag mir, ob etwas Bedenkliches drinsteht.
 
 Weitere Skills findest du auf [github.com/anthropics/skills](https://github.com/anthropics/skills). Lies einen fremden Skill, bevor du ihn nutzt. Er kann Befehle enthalten, die mit deinen Rechten laufen.
 

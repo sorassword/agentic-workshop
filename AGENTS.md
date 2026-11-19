@@ -7,7 +7,7 @@ Dieses Repo gehört zum Agentic Coding Workshop der DHC am 20.11.2026. Die Perso
 - `prompts/teil-2-werkzeuge.md`: Skills, MCP und Hooks einrichten
 - `prompts/teil-3-portfolio.md`: Prompts für die Portfolio-Website (Vite, React, Tailwind)
 - `prompts/second-brain.md`: Second Brain aus alten Chats
-- `vorlagen/skills/`: drei Skills (website-design, projekt-karte, design-brief)
+- `vorlagen/skills/`: acht Skills, Herkunft und Lizenzen in `vorlagen/skills/QUELLEN.md`
 - `vorlagen/mcp/mcp.json`, `vorlagen/hooks/settings.json`: Vorlagen für Claude Code
 - `downloads/`: Folien, Handout und alle Vorlagen als ZIP
 
