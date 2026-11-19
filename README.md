@@ -9,6 +9,7 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 | Datei | Wofür |
 | --- | --- |
 | `README.md` | Diese Datei |
+| `AGENTS.md`, `CLAUDE.md` | Hinweise für deinen Agenten, damit er das Repo kennt |
 | `anleitung.pdf` | Die Mitmach-Anleitung mit allen Schritten, Links und Problemlösungen |
 | `prompts/` | Alle Aufträge zum Kopieren für Teil 2 und Teil 3 |
 | `vorlagen/` | Skills, MCP und Hooks zum Übernehmen in dein Projekt |
@@ -31,17 +32,14 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 | --- | --- |
 | Skills, MCP und Hooks einrichten | [prompts/teil-2-werkzeuge.md](prompts/teil-2-werkzeuge.md) |
 | Second Brain aus deinen alten Chats | [prompts/second-brain.md](prompts/second-brain.md) |
-| Drei Skills: website-design, projekt-karte, design-brief | [vorlagen/skills/](vorlagen/skills/) |
+| Acht Skills: drei vom Workshop, fünf Design-Skills aus den Folien | [vorlagen/skills/](vorlagen/skills/) |
 | Links zu allen Design-Skills aus den Folien | [prompts/teil-2-werkzeuge.md](prompts/teil-2-werkzeuge.md#meine-design-skills-aus-den-folien) |
-| Context7 per MCP | [vorlagen/mcp/mcp.json](vorlagen/mcp/mcp.json) |
-| Zwei Hooks: Benachrichtigung, Löschsperre | [vorlagen/hooks/settings.json](vorlagen/hooks/settings.json) |
+| Context7 per MCP (Datei für Claude Code) | [vorlagen/mcp/mcp.json](vorlagen/mcp/mcp.json) |
+| Zwei Hooks für Claude Code: Benachrichtigung, Löschsperre | [vorlagen/hooks/settings.json](vorlagen/hooks/settings.json) |
 
-## Teil 3: Bau dein Projekt
+## Teil 3: Deine Portfolio-Website
 
-| Track | Prompts |
-| --- | --- |
-| Track 1: Personal OS | [prompts/teil-3-track-1-personal-os.md](prompts/teil-3-track-1-personal-os.md) |
-| Track 2: Website mit Portfolio | [prompts/teil-3-track-2-portfolio.md](prompts/teil-3-track-2-portfolio.md) |
+Mit Vite, React, Tailwind und Lucide Icons, online über GitHub Pages. Alle Befehle und die fünf Prompts: [prompts/teil-3-portfolio.md](prompts/teil-3-portfolio.md), dieselben stehen im Handout auf Seite 3 und 4.
 
 ## Downloads
 
