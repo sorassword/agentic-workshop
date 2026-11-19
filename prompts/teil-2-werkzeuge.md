@@ -6,7 +6,7 @@ Kopier die Aufträge in den Chat deines Agenten, egal ob Claude Code, Codex oder
 
 Ein Skill ist ein Rezept als Markdown-Datei. Dein Agent liest es erst, wenn deine Bitte dazu passt.
 
-> Kopiere die Ordner aus `vorlagen/skills` in meinem Ordner agentic-workshop in deinen globalen Skill-Ordner (Claude Code: `~/.claude/skills/`, Codex: `~/.agents/skills/`, Gemini: `~/.gemini/skills/`). Zeig mir danach, was du angelegt hast.
+> Kopiere die Ordner aus `vorlagen/skills` in meinem Ordner agentic-workshop in deinen globalen Skill-Ordner (Claude Code: `~/.claude/skills/`, Codex: `~/.agents/skills/`, Gemini: `~/.gemini/config/skills/`). Zeig mir danach, was du angelegt hast.
 
 Test: „Welche Skills kennst du?“ Dein Agent nennt die neuen Skills.
 
@@ -36,7 +36,7 @@ MCP ist die Steckdosenleiste, an die dein Agent andere Programme anschließt. Co
 
 > Richte mir den HTTP-MCP-Server context7 unter https://mcp.context7.com/mcp für alle meine Projekte ein und zeig mir, ob er verbunden ist.
 
-Oder im Terminal, nicht im Chat (Gemini nimmt den Prompt oben):
+Gemini trägt den Server in `~/.gemini/config/mcp_config.json` ein. Oder im Terminal, nicht im Chat:
 
 ```bash
 # Claude Code, für alle Projekte
@@ -58,7 +58,7 @@ Ein Hook läuft immer, wenn ein bestimmter Moment kommt, zum Beispiel bevor der 
 
 > Richte für alle meine Projekte einen Hook ein, der mich benachrichtigt, wenn du auf mich wartest.
 
-Test: Tipp `/hooks`. Der neue Hook steht in der Liste. Codex führt einen neuen Hook erst aus, wenn du ihn dort freigibst.
+Test: Frag deinen Agenten, in welcher Datei der Hook steht. Claude Code zeigt ihn unter `/hooks`. Codex führt einen neuen Hook erst aus, wenn du ihn unter `/hooks` freigibst. Codex und Gemini kennen kein eigenes Warte-Ereignis, sie melden sich über das Ereignis `Stop`, also wenn sie fertig sind.
 
 Fertige Vorlage für Claude Code auf dem Mac: [`vorlagen/hooks/settings.json`](../vorlagen/hooks/settings.json). Sie enthält zwei Hooks:
 
@@ -75,14 +75,13 @@ Frag deinen Agenten: „Welche Skills, MCP-Server und Hooks hast du?“ Er nennt
 
 ## 4. Weiter in Teil 3
 
-Yannik startet mit dir ein neues Repo. Dort schickst du Prompt 1 aus deinem Begleitdokument:
+In Teil 3 baust du in einem neuen Repo deine Portfolio-Website: [teil-3-portfolio.md](teil-3-portfolio.md).
 
-- [Track 1: Personal OS](teil-3-track-1-personal-os.md)
-- [Track 2: Website mit Portfolio](teil-3-track-2-portfolio.md)
-
-Claude Code liest im Projekt die Datei `CLAUDE.md`, Codex und Gemini (Antigravity) die Datei `AGENTS.md`. Yanniks Prompt 4 legt eine `CLAUDE.md` an.
+Claude Code liest im Projekt die Datei `CLAUDE.md`, Codex und Gemini (Antigravity) die Datei `AGENTS.md`. Prompt 2 legt die passende Datei für deinen Agenten an.
 
 ## Befehle
+
+Die Befehle gelten für Claude Code. Mit Codex oder Gemini fragst du deinen Agenten in normalen Worten, zum Beispiel „Welche MCP-Server hast du?“.
 
 | Befehl | Was er macht |
 | --- | --- |

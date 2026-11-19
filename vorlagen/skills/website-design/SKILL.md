@@ -14,7 +14,7 @@ Die Seite wirkt wie ein gut gesetztes Beraterprofil: ruhig, präzise, mit Zahlen
 
 ## Farbe
 - Hintergrund #FAFAF7, Text #1B1F1D, Nebentext #5C635F, Linien #E4E6E1.
-- Ein Akzent aus der AGENTS.md für den Button, Links und die wichtigste Zahl je Karte.
+- Ein Akzent aus der CLAUDE.md oder AGENTS.md für den Button, Links und die wichtigste Zahl je Karte.
 - Ein heller Ton des Akzents als Fläche für den Kopfbereich. Keine Verläufe, keine farbigen Schatten.
 
 ## Layout

@@ -1,18 +1,18 @@
 ---
 name: design-brief
-description: Force a reference image/style plus an avoid-list before any design variant gets built. Use before producing posters, flyers, decks, VSM layouts or web sections.
+description: Legt Vorbild und Verbotsliste fest, bevor eine Design-Variante gebaut wird. Nutzen vor Webseiten-Abschnitten, Postern, Flyern oder Folien.
 ---
 
 # Design-Brief
 
-Kein Design ohne Brief. Dieser Skill legt Referenz, Avoid-Liste und Rubrik fest, bevor eine Variante entsteht.
+Kein Design ohne Brief. Dieser Skill legt Vorbild, Verbotsliste und Prüfregeln fest, bevor eine Variante entsteht.
 
 ## Gate
 
 Gebaut wird erst, wenn alle drei Punkte vorliegen:
 
-- (a) 1-2 Referenzen: Bild, URL oder benannter Stil
-- (b) Avoid-Liste
+- (a) 1 bis 2 Vorbilder: Bild, URL oder benannter Stil
+- (b) Verbotsliste
 - (c) Medium und Zielgruppe
 
 Fehlt etwas, genau eine Frage stellen. Danach den Brief schreiben.
@@ -21,37 +21,37 @@ Fehlt etwas, genau eine Frage stellen. Danach den Brief schreiben.
 
 Im Projekt `DESIGN_BRIEF.md` anlegen mit:
 
-- Referenz / Vibe
-- Avoid-Liste
-- Format (Medium, Masse, Ausgabe wie PDF, PNG oder HTML)
+- Vorbild und Stimmung
+- Verbotsliste
+- Format (Medium, Maße, Ausgabe wie HTML, PDF oder PNG)
 - Zielgruppe
-- Varianten-Cap (maximal 3)
+- Höchstzahl Varianten (3)
 
-Standard-Avoid-Liste, immer drin, projektspezifisch ergaenzen:
+Diese Verbote stehen immer drin, projektspezifisch ergänzen:
 
-- soft gradients
-- big empty whitespace
-- centered generic hero
-- cheesy headlines
-- everything that looks AI-generated
+- weiche Standard-Farbverläufe
+- große leere Weißflächen
+- zentrierter Allerwelts-Hero
+- kitschige Überschriften
+- alles, was nach KI-generiert aussieht
 
 ## DESIGN_RUBRIC.md
 
 `DESIGN_RUBRIC.md` mit harten Regeln anlegen. Basis:
 
-- keine Default-Gradients, kein Glassmorphism
-- kein zentrierter generischer Hero
-- keine Emoji-Icons
-- kein uebermaessiger White Space
-- konsistentes Spacing-Grid
-- keine Textueberlappungen
-- keine kaputten Zeilenumbrueche
-- keine QR- oder Logo-Kollisionen
+- keine Standard-Farbverläufe, kein Glas-Look
+- kein zentrierter Allerwelts-Hero
+- keine Emojis als Icons
+- kein übermäßiger Weißraum
+- einheitliches Abstandsraster
+- kein Text überlappt einen anderen
+- keine kaputten Zeilenumbrüche
+- QR-Code und Logo stoßen nirgends an
 
-Danach projektspezifische Regeln ergaenzen (Markenfarben, Schriften, Pflichtelemente, Druckraender).
+Danach projektspezifische Regeln ergänzen (Farben, Schriften, Pflichtelemente, Druckränder).
 
 ## Varianten
 
-- Maximal 3, klar verschieden, gelabelt A/B/C, je eine Zeile Kernidee.
-- Vor dem Zeigen rendern (Screenshot oder PDF als Bild) und selbst prüfen. Jede Überlappung ansehen und fixen oder begründen.
-- Nur zeigen, was gegen die Rubrik geprueft ist.
+- Höchstens 3, klar verschieden, beschriftet A, B, C, je eine Zeile Kernidee.
+- Vor dem Zeigen rendern (Screenshot oder PDF als Bild) und selbst prüfen. Jede Überlappung ansehen und beheben oder begründen.
+- Nur zeigen, was gegen die Prüfregeln getestet ist.
