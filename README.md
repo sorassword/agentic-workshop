@@ -12,7 +12,7 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 | `anleitung.pdf` | Die Mitmach-Anleitung mit allen Schritten, Links und Problemlösungen |
 | `prompts/` | Alle Aufträge zum Kopieren für Teil 2 und Teil 3 |
 | `vorlagen/` | Skills, MCP und Hooks zum Übernehmen in dein Projekt |
-| `downloads/` | Folien, Handout und Begleitdokumente |
+| `downloads/` | Alle Folien und das Handout als PDF |
 
 ## So geht es weiter
 
@@ -49,12 +49,9 @@ Hast du das Repo schon geklont? Dann holt `git pull` alle neuen Dateien in deine
 
 | Unterlage | Format | Download |
 | --- | --- | --- |
-| Teil 1: Folien | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-1-folien.pdf) |
+| Alle Folien, Teil 1 bis 3 (48 Folien) | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-folien.pdf) |
+| Handout für alle drei Teile: Klicks, Befehle, Prompts, ab Seite 5 Links, Studi-Angebote und Glossar | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-handout.pdf) |
 | Mitmach-Anleitung | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/anleitung.pdf) |
-| Teil 2: Folien | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-2-folien.pdf) |
-| Teil 2: Handout mit Links, Wörtern und Studi-Angeboten | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-2-handout.pdf) |
-| Teil 3: Begleitdokument Personal OS | Word | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-3-begleitdokument-personal-os.docx) |
-| Teil 3: Begleitdokument Portfolio | Word | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-3-begleitdokument-portfolio.docx) |
 | Alle Prompts und Vorlagen | ZIP | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-vorlagen.zip) |
 
 ## Hakt es irgendwo?

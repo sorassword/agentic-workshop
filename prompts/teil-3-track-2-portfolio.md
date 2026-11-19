@@ -1,6 +1,6 @@
 # Teil 3, Track 2: Website mit Portfolio
 
-Die Prompts stammen aus dem Begleitdokument von Yannik. Das Word-Dokument liegt unter [`downloads/`](../downloads/).
+Die Prompts stammen aus dem Begleitdokument von Yannik. Das Handout liegt unter [`downloads/workshop-handout.pdf`](../downloads/workshop-handout.pdf).
 
 KI ist ein Werkzeug, kein Autopilot. Lies jeden Vorschlag gegen, hinterfrage unnötige Komplexität und entscheide selbst, wofür du KI einsetzt.
 
