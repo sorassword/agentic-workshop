@@ -24,7 +24,7 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 
 ## Hakt es irgendwo?
 
-Die häufigsten Probleme und ihre Lösung stehen in `anleitung.pdf` unter „Wenn etwas hakt“. Oder Hand heben, wir kommen vorbei.
+Die häufigsten Probleme und ihre Lösung stehen in `anleitung.pdf` unter „Hakt es irgendwo?“. Oder Hand heben, wir kommen vorbei.
 
 ## Danach
 
