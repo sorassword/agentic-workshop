@@ -10,6 +10,9 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 | --- | --- |
 | `README.md` | Diese Datei |
 | `anleitung.pdf` | Die Mitmach-Anleitung mit allen Schritten, Links und Problemlösungen |
+| `prompts/` | Alle Aufträge zum Kopieren für Teil 2 und Teil 3 |
+| `vorlagen/` | Skills, MCP und Hooks zum Übernehmen in dein Projekt |
+| `downloads/` | Folien, Handout und Begleitdokumente |
 
 ## So geht es weiter
 
@@ -20,7 +23,38 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 
    > Hallo! Welche Dateien liegen in meinem Ordner?
 
-   Der Agent nennt `README.md` und `anleitung.pdf`. Dann läuft alles.
+   Der Agent nennt unter anderem `README.md` und `anleitung.pdf`. Dann läuft alles.
+
+## Teil 2: Werkzeuge für deinen Agenten
+
+| Thema | Datei |
+| --- | --- |
+| Skills, MCP, Hooks und erste Aufträge | [prompts/teil-2-werkzeuge.md](prompts/teil-2-werkzeuge.md) |
+| Second Brain aus deinen alten Chats | [prompts/second-brain.md](prompts/second-brain.md) |
+| Zwei Skills: website-design, projekt-karte | [vorlagen/skills/](vorlagen/skills/) |
+| Context7 per MCP | [vorlagen/mcp/mcp.json](vorlagen/mcp/mcp.json) |
+| Zwei Hooks: Benachrichtigung, Löschsperre | [vorlagen/hooks/settings.json](vorlagen/hooks/settings.json) |
+
+## Teil 3: Bau dein Projekt
+
+| Track | Prompts |
+| --- | --- |
+| Track 1: Personal OS | [prompts/teil-3-track-1-personal-os.md](prompts/teil-3-track-1-personal-os.md) |
+| Track 2: Website mit Portfolio | [prompts/teil-3-track-2-portfolio.md](prompts/teil-3-track-2-portfolio.md) |
+
+## Downloads
+
+Hast du das Repo schon geklont? Dann holt `git pull` alle neuen Dateien in deinen Ordner.
+
+| Unterlage | Format | Download |
+| --- | --- | --- |
+| Teil 1: Folien | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-1-folien.pdf) |
+| Mitmach-Anleitung | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/anleitung.pdf) |
+| Teil 2: Folien | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-2-folien.pdf) |
+| Teil 2: Handout mit Links, Wörtern und Studi-Angeboten | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-2-handout.pdf) |
+| Teil 3: Begleitdokument Personal OS | Word | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-3-begleitdokument-personal-os.docx) |
+| Teil 3: Begleitdokument Portfolio | Word | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/teil-3-begleitdokument-portfolio.docx) |
+| Alle Prompts und Vorlagen | ZIP | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-vorlagen.zip) |
 
 ## Hakt es irgendwo?
 
