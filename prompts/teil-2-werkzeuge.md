@@ -75,7 +75,7 @@ Den letzten Satz lässt du auf dem Mac weg.
 
 ## Geschafft?
 
-Frag deinen Agenten: „Welche Skills, MCP-Server und Hooks hast du?“ Er nennt website-design, projekt-karte, context7 und deinen Hook.
+Frag deinen Agenten: „Welche Skills, MCP-Server und Hooks hast du?“ Er nennt deine neuen Skills (u. a. website-design, projekt-karte, design-brief), context7 und deinen Hook.
 
 ## 4. Weiter in Teil 3
 

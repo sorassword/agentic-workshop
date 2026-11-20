@@ -13,7 +13,7 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 | `anleitung.pdf` | Die Mitmach-Anleitung mit allen Schritten, Links und Problemlösungen |
 | `prompts/` | Alle Aufträge zum Kopieren für Teil 2 und Teil 3 |
 | `vorlagen/` | Skills, MCP und Hooks zum Übernehmen in dein Projekt |
-| `downloads/` | Alle Folien und das Handout als PDF |
+| `downloads/` | Alle Folien, das Handout als PDF und alle Vorlagen als ZIP |
 
 ## So geht es weiter
 
@@ -39,7 +39,7 @@ Willkommen beim Agentic Coding Workshop der Düsseldorfer Hochschul Consulting (
 
 ## Teil 3: Deine Portfolio-Website
 
-Mit Vite, React, Tailwind und Lucide Icons, online über GitHub Pages. Alle Befehle und die fünf Prompts: [prompts/teil-3-portfolio.md](prompts/teil-3-portfolio.md), dieselben stehen im Handout auf Seite 3 und 4.
+Mit Vite, React, Tailwind und Lucide Icons, online über GitHub Pages. Alle Befehle und die fünf Prompts: [prompts/teil-3-portfolio.md](prompts/teil-3-portfolio.md), dieselben stehen im Handout auf Seite 4 und 5.
 
 ## Downloads
 
@@ -48,7 +48,7 @@ Hast du das Repo schon geklont? Dann holt `git pull` alle neuen Dateien in deine
 | Unterlage | Format | Download |
 | --- | --- | --- |
 | Alle Folien, Teil 1 bis 3 (48 Folien) | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-folien.pdf) |
-| Handout für alle drei Teile: Klicks, Befehle, Prompts, ab Seite 5 Links, Studi-Angebote und Glossar | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-handout.pdf) |
+| Handout für alle drei Teile (6 Seiten): Überblick, Setup, Werkzeuge, Hands-on, Prompts (Seite 5), Links und Regeln (Seite 6) | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-handout.pdf) |
 | Mitmach-Anleitung | PDF | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/anleitung.pdf) |
 | Alle Prompts und Vorlagen | ZIP | [Herunterladen](https://github.com/sorassword/agentic-workshop/raw/main/downloads/workshop-vorlagen.zip) |
 
