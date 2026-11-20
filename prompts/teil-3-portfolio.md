@@ -1,6 +1,6 @@
 # Teil 3: Deine persönliche Portfolio-Website
 
-Du baust mit Vite, React (TypeScript), Tailwind CSS und Lucide Icons eine Website mit fünf Abschnitten und stellst sie über GitHub Pages online. Dieselben Schritte stehen im Handout auf Seite 3 und 4 ([`downloads/workshop-handout.pdf`](../downloads/workshop-handout.pdf)).
+Du baust mit Vite, React (TypeScript), Tailwind CSS und Lucide Icons eine Website mit fünf Abschnitten und stellst sie über GitHub Pages online. Dieselben Schritte stehen im Handout auf Seite 4 und 5 ([`downloads/workshop-handout.pdf`](../downloads/workshop-handout.pdf)).
 
 Die Prompts funktionieren mit Claude Code, Codex und Gemini. Claude Code schreibt seine Projektregeln in `CLAUDE.md`, Codex und Gemini (Antigravity) in `AGENTS.md`. Die Prompts sagen das jeweils dazu.
 
